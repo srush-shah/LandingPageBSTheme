@@ -1,0 +1,12 @@
+#form{
+    display: flexbox;
+    flex-grow: unset;
+}
+
+@media (min-width: 320px)
+{
+    footer{
+        display: flexbox;
+        align-content: space-between;
+    }
+}
